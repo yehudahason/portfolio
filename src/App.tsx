@@ -29,8 +29,8 @@ const categories = [
 ] as const;
 const social = {
   github: "https://github.com/yehudahason",
-  linkedin: "https://linkedin.com",
-  email: "hello@example.com",
+  linkedin: "https://www.linkedin.com/in/yehuda-hason-974aa62ab/",
+  email: "yehudaxt@gmail.com",
 };
 
 export default function App() {
@@ -210,9 +210,9 @@ export default function App() {
                 <div className="indent">
                   passion: <strong>'Building things'</strong>,
                 </div>
-                <div className="indent">
+                {/* <div className="indent">
                   projects: <b>40</b>,
-                </div>
+                </div> */}
                 <div>
                   <span>{"}"}</span>;
                 </div>
@@ -226,10 +226,10 @@ export default function App() {
               <span className="chip-icon">
                 <Globe2 size={19} />
               </span>
-              <span>
-                <strong>40+ projects</strong>
+              {/* <span>
+                
                 <small>Built & launched</small>
-              </span>
+              </span> */}
             </div>
             <div className="float-chip bottom-chip">
               <span className="chip-icon check-icon">
@@ -246,9 +246,7 @@ export default function App() {
         <section className="stats-wrap">
           <div className="container stats">
             <div>
-              <strong>
-                40<span>+</span>
-              </strong>
+              <strong>{/* 40<span>+</span> */}</strong>
               <p>Projects delivered</p>
             </div>
             <span className="stat-separator" />
