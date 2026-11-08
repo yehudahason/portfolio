@@ -21,11 +21,11 @@ import { projects, type Category, type Project } from "./projects";
 
 const categories = [
   "All Projects",
-  "Full Stack",
-  "Frontend",
-  "E-commerce",
   "Web App",
+  "Frontend",
   "Landing Page",
+  "Full Stack",
+  // "E-commerce",
 ] as const;
 const social = {
   github: "https://github.com/yehudahason",
