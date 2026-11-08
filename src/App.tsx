@@ -33,6 +33,24 @@ const social = {
   email: "yehudaxt@gmail.com",
 };
 
+const skills = [
+  "React",
+  "TypeScript",
+  "JavaScript",
+  "Next.js",
+  "Tailwind CSS",
+  "HTML & CSS",
+  "Go",
+  "Node.js",
+  "Express.js",
+  "PostgreSQL",
+  "Supabase",
+  "Git",
+  "Docker",
+  "Figma",
+  "Vps",
+  "Linux",
+];
 export default function App() {
   const [dark, setDark] = useState(() => {
     try {
@@ -251,7 +269,8 @@ export default function App() {
             <span className="stat-separator" />
             <div>
               <strong>
-                10<span>+</span>
+                {skills.length}
+                <span>+</span>
               </strong>
               <p>Technologies used</p>
             </div>
@@ -377,20 +396,7 @@ export default function App() {
                 </p>
                 <h3>MY TOOLBOX</h3>
                 <div className="skills">
-                  {[
-                    "React",
-                    "TypeScript",
-                    "JavaScript",
-                    "Next.js",
-                    "Tailwind CSS",
-                    "HTML & CSS",
-                    "Go",
-                    "Node.js",
-                    "PostgreSQL",
-                    "Supabase",
-                    "Git",
-                    "Docker",
-                  ].map((skill) => (
+                  {skills.map((skill) => (
                     <span key={skill}>{skill}</span>
                   ))}
                 </div>
