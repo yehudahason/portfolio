@@ -337,6 +337,17 @@ export const projects: Project[] = [
     featured: true,
     image: "pricing.png",
   },
+  {
+    id: 30,
+    title: "Let's Go!",
+    category: "Full Stack",
+    description: 'Final Project of \"Let\'s Go!\" by Alex Edwards.',
+    stack: ["Go", "MySql"],
+    color: "cyan",
+    url: "https://lets.pitron-halomot.org/",
+    featured: true,
+    image: "sippets.png",
+  },
 ];
 // export const projects: Project[] = examples.map((project, index) => ({
 //   ...project,
