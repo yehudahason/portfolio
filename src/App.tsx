@@ -245,10 +245,9 @@ export default function App() {
 
         <section className="stats-wrap">
           <div className="container stats">
-            <div>
-              <strong>{/* 40<span>+</span> */}</strong>
+            {/* <div>
               <p>Projects delivered</p>
-            </div>
+            </div> */}
             <span className="stat-separator" />
             <div>
               <strong>

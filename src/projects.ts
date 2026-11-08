@@ -19,6 +19,17 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "pitron-halomot.org",
+    category: "Full Stack",
+    description: "pitron-halomot.org website",
+    stack: ["React"],
+    color: "cyan",
+    url: "https://pitron-halomot.org/",
+    featured: true,
+    image: "pitron.png",
+  },
+  {
+    id: 2,
     title: "Tic-Tac-Toe",
     category: "Web App",
     description: "Tic-Tac-Toe Game",
@@ -29,7 +40,7 @@ export const projects: Project[] = [
     image: "tictactoe.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "FX Checker",
     category: "Web App",
     description: "Foreign exchange currency converter",
@@ -40,7 +51,7 @@ export const projects: Project[] = [
     image: "FEX.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather app",
     category: "Web App",
     description: "Weather app",
@@ -51,7 +62,7 @@ export const projects: Project[] = [
     image: "weatherApp.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Launch count down timer",
     category: "Web App",
     description: "Launch count down timer",
@@ -62,7 +73,7 @@ export const projects: Project[] = [
     image: "countdown.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Countries api",
     category: "Web App",
     description: "rest-countries-api",
@@ -73,7 +84,7 @@ export const projects: Project[] = [
     image: "countriesapi.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "Conference ticket",
     category: "Web App",
     description: "conference-ticket-generator",
@@ -84,7 +95,7 @@ export const projects: Project[] = [
     image: "ticket.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "Pomodoro",
     category: "Web App",
     description: "Pomodoro-app",
@@ -95,7 +106,7 @@ export const projects: Project[] = [
     image: "pomodoro.png",
   },
   {
-    id: 8,
+    id: 9,
     title: "Recipe-finder",
     category: "Frontend",
     description: "Recipe-finder-website",
@@ -106,7 +117,7 @@ export const projects: Project[] = [
     image: "recipefinder.png",
   },
   {
-    id: 9,
+    id: 10,
     title: "Photosnap-website",
     category: "Frontend",
     description: "Photosnap-website",
@@ -117,7 +128,7 @@ export const projects: Project[] = [
     image: "photosnap.png",
   },
   {
-    id: 10,
+    id: 11,
     title: "Github user search",
     category: "Web App",
     description: "Github user search app",
@@ -128,7 +139,7 @@ export const projects: Project[] = [
     image: "githubUser.png",
   },
   {
-    id: 11,
+    id: 12,
     title: "art-gallery",
     category: "Frontend",
     description: " art-gallery-website",
@@ -139,7 +150,7 @@ export const projects: Project[] = [
     image: "artgallery.png",
   },
   {
-    id: 12,
+    id: 13,
     title: "Pod request access",
     category: "Frontend",
     description: "pod-request-access-landing-page",
@@ -150,7 +161,7 @@ export const projects: Project[] = [
     image: "podrequest.png",
   },
   {
-    id: 13,
+    id: 14,
     title: "Browser extensions manager",
     category: "Frontend",
     description: "Browser-extensions-manager-ui",
@@ -161,7 +172,7 @@ export const projects: Project[] = [
     image: "browserext.png",
   },
   {
-    id: 14,
+    id: 15,
     title: "Mortgage Calculator",
     category: "Web App",
     description: "Mortgage-Calculator",
@@ -172,7 +183,7 @@ export const projects: Project[] = [
     image: "mortgage.png",
   },
   {
-    id: 15,
+    id: 16,
     title: "Clipboard landing page",
     category: "Landing Page",
     description: "clipboard-landing-page",
@@ -183,7 +194,7 @@ export const projects: Project[] = [
     image: "clipboard.png",
   },
   {
-    id: 16,
+    id: 17,
     title: "News homepage",
     category: "Frontend",
     description: "News-homepage",
@@ -194,7 +205,7 @@ export const projects: Project[] = [
     image: "news.png",
   },
   {
-    id: 17,
+    id: 18,
     title: "Digital bank",
     category: "Landing Page",
     description: "Digital-bank-landing-page",
@@ -205,7 +216,7 @@ export const projects: Project[] = [
     image: "digitalbank.png",
   },
   {
-    id: 18,
+    id: 19,
     title: "Quiz app",
     category: "Web App",
     description: "quiz-app",
@@ -214,17 +225,6 @@ export const projects: Project[] = [
     url: "https://yehudahason.github.io/quiz-app/",
     featured: true,
     image: "quizapp.png",
-  },
-  {
-    id: 19,
-    title: "Interactive pricing",
-    category: "Frontend",
-    description: "Interactive-pricing-component",
-    stack: ["React"],
-    color: "cyan",
-    url: "https://yehudahason.github.io/Interactive-pricing-component/",
-    featured: true,
-    image: "pricing.png",
   },
   {
     id: 20,
@@ -325,6 +325,17 @@ export const projects: Project[] = [
     url: "https://yehudahason.github.io/recipe-page/",
     featured: true,
     image: "recipepage.png",
+  },
+  {
+    id: 29,
+    title: "Interactive pricing",
+    category: "Frontend",
+    description: "Interactive-pricing-component",
+    stack: ["React"],
+    color: "cyan",
+    url: "https://yehudahason.github.io/Interactive-pricing-component/",
+    featured: true,
+    image: "pricing.png",
   },
 ];
 // export const projects: Project[] = examples.map((project, index) => ({
