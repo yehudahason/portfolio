@@ -105,7 +105,7 @@ export default function App() {
             </span>
             <span className="brand-separator" />
             <span className="brand-label">
-              developer
+              Yehuda Hason
               <br />
               portfolio
             </span>
