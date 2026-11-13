@@ -41,6 +41,17 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    title: "Go Pong",
+    category: "Full Stack",
+    description: "Ping Pong Game",
+    stack: ["Go", "HTML", "CSS", "JS"],
+    color: "cyan",
+    url: "https://gopong.pitron-halomot.org/",
+    featured: true,
+    image: "gopong.png",
+  },
+  {
+    id: 4,
     title: "FX Checker",
     category: "Web App",
     description: "Foreign exchange currency converter",
@@ -51,7 +62,7 @@ export const projects: Project[] = [
     image: "FEX.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather app",
     category: "Web App",
     description: "Weather app",
@@ -62,7 +73,7 @@ export const projects: Project[] = [
     image: "weatherApp.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Launch count down timer",
     category: "Web App",
     description: "Launch count down timer",
@@ -73,7 +84,7 @@ export const projects: Project[] = [
     image: "countdown.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "Countries api",
     category: "Web App",
     description: "rest-countries-api",
@@ -84,7 +95,7 @@ export const projects: Project[] = [
     image: "countriesapi.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "Conference ticket",
     category: "Web App",
     description: "conference-ticket-generator",
@@ -95,7 +106,7 @@ export const projects: Project[] = [
     image: "ticket.png",
   },
   {
-    id: 8,
+    id: 9,
     title: "Pomodoro",
     category: "Web App",
     description: "Pomodoro-app",
@@ -106,7 +117,7 @@ export const projects: Project[] = [
     image: "pomodoro.png",
   },
   {
-    id: 9,
+    id: 10,
     title: "Recipe-finder",
     category: "Frontend",
     description: "Recipe-finder-website",
@@ -117,7 +128,7 @@ export const projects: Project[] = [
     image: "recipefinder.png",
   },
   {
-    id: 10,
+    id: 11,
     title: "Photosnap-website",
     category: "Frontend",
     description: "Photosnap-website",
@@ -128,7 +139,7 @@ export const projects: Project[] = [
     image: "photosnap.png",
   },
   {
-    id: 11,
+    id: 12,
     title: "Github user search",
     category: "Web App",
     description: "Github user search app",
@@ -139,7 +150,7 @@ export const projects: Project[] = [
     image: "githubUser.png",
   },
   {
-    id: 12,
+    id: 13,
     title: "art-gallery",
     category: "Frontend",
     description: " art-gallery-website",
@@ -150,7 +161,7 @@ export const projects: Project[] = [
     image: "artgallery.png",
   },
   {
-    id: 13,
+    id: 14,
     title: "Pod request access",
     category: "Frontend",
     description: "pod-request-access-landing-page",
@@ -161,7 +172,7 @@ export const projects: Project[] = [
     image: "podrequest.png",
   },
   {
-    id: 14,
+    id: 15,
     title: "Browser extensions manager",
     category: "Frontend",
     description: "Browser-extensions-manager-ui",
@@ -170,17 +181,6 @@ export const projects: Project[] = [
     url: "https://yehudahason.github.io/Browser-extensions-manager-ui/",
     featured: true,
     image: "browserext.png",
-  },
-  {
-    id: 15,
-    title: "Mortgage Calculator",
-    category: "Web App",
-    description: "Mortgage-Calculator",
-    stack: ["React"],
-    color: "cyan",
-    url: "https://yehudahason.github.io/Mortgage-Calculator/",
-    featured: true,
-    image: "mortgage.png",
   },
   {
     id: 16,
@@ -347,6 +347,17 @@ export const projects: Project[] = [
     url: "https://lets.pitron-halomot.org/",
     featured: true,
     image: "sippets.png",
+  },
+  {
+    id: 31,
+    title: "Mortgage Calculator",
+    category: "Web App",
+    description: "Mortgage-Calculator",
+    stack: ["React"],
+    color: "cyan",
+    url: "https://yehudahason.github.io/Mortgage-Calculator/",
+    featured: true,
+    image: "mortgage.png",
   },
 ];
 // export const projects: Project[] = examples.map((project, index) => ({
